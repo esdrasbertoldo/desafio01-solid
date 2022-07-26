@@ -1,6 +1,6 @@
 {
   "env": {
-    "es2020": true,
+    "es2021": true,
     "node": true,
     "jest": true
   },
@@ -63,5 +63,11 @@
     "import/resolver": {
       "typescript": {}
     }
-  }
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    },
+  ]
 }
